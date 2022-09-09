@@ -7,5 +7,6 @@
  *     */
 int main(void)
 {
+	printf("My first C program");
 	return (0);
 }
