@@ -4,7 +4,7 @@
 /**
 * main - evaluates wheter a number is negative or positive
 * @n - a randomly generated number to be checked
-* Return - returns 0 after printing if negative or not
+* Return: returns 0 after printing if negative or not
 */
 int main(void)
 {
