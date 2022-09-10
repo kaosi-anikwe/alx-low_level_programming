@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
 * main - evaluates wheter a number is negative or positive
-* @n - a randomly generated number to be checked
+* @n - a randomly generated number to checked
 * Return: returns 0 after printing if negative or not
 */
 int main(void)
 {
-	int i, j, k, l;
+	int i, j, k, l, op1, op2;
 
 	for (i = 0; i <= 9; i++)
 	{
@@ -16,30 +16,25 @@ int main(void)
 			{
 				for (l = 0; l <= 9; l++)
 				{
-					if (i <= k && j < l)
+					op1 = (i * 10) + j;
+					op2 = (k * 10) + l;
+					if (op1 < op2)
 					{
 						putchar(i + '0');
 						putchar(j + '0');
 						putchar(' ');
-					if (k >= i && l >= j)
-					{
 						putchar(k + '0');
 						putchar(l + '0');
-					}
 					if (i == 9 && j == 8 && k == 9 && l == 9)
-					{
-						putchar('\n');
-					}
-					else
-					{
+						break;
 						putchar(',');
 						putchar(' ');
-					}
 					}
 
 				}
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
