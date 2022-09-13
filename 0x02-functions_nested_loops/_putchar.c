@@ -1,13 +1,13 @@
-#include <stdio.h>
-/**
-* main - evaluates wheter a number is negative or positive
-* @string - the string to be printed to standard ouput
-* Return: returns 0 after printing the string
-*/
-int main(void)
-{
-    char string[] = "_putchar";
+#include <unistd.h>
 
-    printf("%s \n", string);
-    return 0;
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
 }

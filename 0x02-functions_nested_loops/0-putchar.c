@@ -1,13 +1,18 @@
-#include <stdio.h>
+#include "main.h"
 /**
-* main - evaluates wheter a number is negative or positive
+* main - wrties the string "_putchar" to stdout
 * @string - the string to be printed to standard ouput
 * Return: returns 0 after printing the string
 */
 int main(void)
 {
     char string[] = "_putchar";
+    int i;
 
-    printf("%s\n", string);
+    for (i = 0; i <= 9; i++)
+    {
+        _putchar(string[i]);
+    }
+    _putchar('\n');
     return 0;
 }
