@@ -18,7 +18,7 @@ int main(void)
  */
 void print_numbers(void)
 {
-	int i;
+	unsigned int i;
 	unsigned int sum;
 
 	for (i = 0; i < 1024; i++)
