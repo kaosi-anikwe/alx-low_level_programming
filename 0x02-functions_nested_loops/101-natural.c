@@ -18,18 +18,18 @@ int main(void)
  */
 void print_numbers(void)
 {
-	unsigned int i;
-	unsigned int sum;
+	int i;
+	int sum;
 
 	for (i = 0; i < 1024; i++)
 	{
 		if (i % 3 == 0)
 		{
-			sum = sum + i;
+			sum += i;
 		}
 		else if (i % 5 == 0)
 		{
-			sum = sum + i;
+			sum += i;
 		}
 	}
 	printf("%d\n", sum);
