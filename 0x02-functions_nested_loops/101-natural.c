@@ -19,7 +19,7 @@ int main(void)
 void print_numbers(void)
 {
 	int i;
-	int sum;
+	unsigned int sum;
 
 	for (i = 0; i < 1024; i++)
 	{
