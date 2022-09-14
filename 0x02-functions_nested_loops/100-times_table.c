@@ -38,7 +38,6 @@ void print_times_table(int num)
 					}
 					_putchar(n + '0');
 				}
-
 				if (j == num)
 					break;
 
