@@ -1,13 +1,10 @@
 .vscode/settings.json
 0x02-functions_nested_loops/package.json
 0x02-functions_nested_loops/_putchar.c
-0x02-functions_nested_loops/1-main.c
 0x02-functions_nested_loops/0-putchar
 0x02-functions_nested_loops/2-alphabet_x10
 0x02-functions_nested_loops/1-alphabet
-0x02-functions_nested_loops/2-main.c
-0x02-functions_nested_loops/3-main.c
-*main.c
+0x02-functions_nested_loops/*main.c
 0x02-functions_nested_loops/3-islower
 0x02-functions_nested_loops/7-last_digit
 0x02-functions_nested_loops/6-abs
