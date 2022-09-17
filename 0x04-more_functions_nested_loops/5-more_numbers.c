@@ -13,8 +13,20 @@ void more_numbers(void)
 		{
 			if (j > 9)
 			{
-				_putchar((j / 10) + '0');
-				_putchar((j % 10) + '0');
+				int k, num;
+
+				for (k = 0; k < 2; k++)
+				{
+					if (k == 0)
+					{
+						num = j / 10;
+					}
+					else
+					{
+						num = j % 10;
+					}
+					_putchar(num + '0');
+				}
 			}
 			else
 			{
